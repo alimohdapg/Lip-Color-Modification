@@ -1,6 +1,6 @@
 # Lip Color Modifcation System
 ## Introduction:
-A lip color modification system that utilizes the lip’s facial landmarks is created. Justifications for the system’s design choices are first given before qualitative results are examined to understand the system’s behavior with different types of images.
+This report details how a lip color modification system that utilizes the lip’s facial landmarks is created. Justifications for the system’s design choices are first given before qualitative results are examined to understand the system’s behavior with different types of images.
 
 ## Methods:
 The lip color modification function uses the output given by a face alignment model’s prediction to identify the location of the lips on the face. The lip’s color is then changed to match what the user inputted. The following flowchart showcases how this is done:
